@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  background: white;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+button {
+  margin: 10px 0 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: wait;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid lightgrey;
+  text-align: left;
+}
+
+th {
+  background: whitesmoke;
+}
+
+.error {
+  color: red;
+}
